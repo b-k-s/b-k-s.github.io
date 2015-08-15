@@ -1,0 +1,28 @@
+*{ font-family: Calibri;
+   color: grey; }
+p, ul{
+	text-align: left; }
+.Name{
+	font-size: 32px;
+	color: #606060; }
+a, a:hover, .Website_Links>ul>li>a.on, .Website_Links>ul>li>a:hover{
+	color: black; }
+a, .Website_Links>ul>li>a{
+	text-decoration: none; }
+a:hover, .Name, .subheading, .Header>h1, .Website_Links>ul>li>a.on, .Website_Links>ul>li>a:hover{
+	font-weight: bold; }
+.heading, .subheading, .Header>h1{
+	color: #606060; }
+p, ul, .Header, .Header>p, .Website_Links{
+	max-width: 700px;
+	min-width: 700px; 
+	margin: 10px auto 10px auto;}
+body, .Header, .Header>p, .Website_Links{
+	text-align: center; }
+.heading{ 
+	font-size: 20px; }
+.subheading{ 
+	font-size: 16px; }  
+.Website_Links>ul>li{ 
+	display: inline; 
+	margin: 10px 10px 10px 10px; }
