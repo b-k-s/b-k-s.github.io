@@ -1,28 +1,54 @@
-*{ font-family: Calibri;
+*{ font-family: Calibri, Arial, Helvetica, sans-serif;
    color: grey; }
-p, ul{
+   
+h2, h3, p, ul, table{
 	text-align: left; }
-.Name{
-	font-size: 32px;
-	color: #606060; }
+	
+h2{
+	font-size: 20px;
+	font-weight: 500; }
+	
+h3{
+	font-size: 16px; }
+	
+.Computer_Skills>ul>li{
+	display: inline-block;
+	vertical-align: top;
+	width: 250px; }
+	
 a, a:hover, .Website_Links>ul>li>a.on, .Website_Links>ul>li>a:hover{
 	color: black; }
-a, .Website_Links>ul>li>a{
+	
+a, .Website_Links>nav>ul>li>a{
 	text-decoration: none; }
-a:hover, .Name, .subheading, .Header>h1, .Website_Links>ul>li>a.on, .Website_Links>ul>li>a:hover{
+	
+h3, a:hover, .Name, .Header>h1, .Website_Links>nav>ul>li>a.on, .Website_Links>nav>ul>li>a:hover{
 	font-weight: bold; }
-.heading, .subheading, .Header>h1{
+	
+h2, h3, .Header>h1{
 	color: #606060; }
-p, ul, .Header, .Header>p, .Website_Links{
-	max-width: 700px;
-	min-width: 700px; 
-	margin: 10px auto 10px auto;}
-body, .Header, .Header>p, .Website_Links{
+	
+h1, h2, h3, p, ul, table, .Header, .Header>p, .Website_Links{
+	min-width: 300px; 
+	margin: 10px auto 10px auto; }
+	
+h1, h2, h3, p, ul, table{
+	max-width: 720px; }
+	
+.Header, .Header>p, .Website_Links{
+	max-width: 900px; }
+	
+body, .Header, .Header>p, .Website_Links>nav>ul{
 	text-align: center; }
-.heading{ 
-	font-size: 20px; }
-.subheading{ 
-	font-size: 16px; }  
-.Website_Links>ul>li{ 
+	
+.Website_Links>nav>ul>li{ 
 	display: inline; 
-	margin: 10px 10px 10px 10px; }
+	margin: auto 10px auto 10px; }
+
+nav select {
+	display: none; }
+
+@media (max-width: 770px) {
+	nav ul     { display: none; }
+	nav select { display: inline-block; }
+}
