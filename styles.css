@@ -29,7 +29,7 @@ h2, h3, .Header>h1{
 	color: #606060; }
 	
 h1, h2, h3, p, ul, table, .Header, .Header>p, .Website_Links{
-	min-width: 300px; 
+	min-width: 250px; 
 	margin: 10px auto 10px auto; }
 	
 h1, h2, h3, p, ul, table{
