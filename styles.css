@@ -25,6 +25,9 @@ a, .Website_Links>nav>ul>li>a{
 h3, a:hover, .Name, .Header>h1, .Website_Links>nav>ul>li>a.on, .Website_Links>nav>ul>li>a:hover{
 	font-weight: bold; }
 	
+a:active{
+	color: grey; }
+	
 h2, h3, .Header>h1{
 	color: #606060; }
 	
