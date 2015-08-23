@@ -6,35 +6,39 @@
 	</head>
 	<body>
 		<div class="Header">
-			<p class="Name">Brandon Sahm</p>
+			<h1>Brandon Sahm</h1>
 			<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
 			<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
 		
 			<div class="Website_Links">
-				<ul>
-					<li><a href="/index">Home</a></li>
-					<li><a href="/education">Education</a></li>
-					<li><a href="/awards_&_scholarships">Awards & Scholarships</a></li>
-					<li><a href="/work_experience">Work Experience</a></li>
-					<li><a href="/proficiencies_&_interests" class="on">Proficiencies & Interests</a></li>
-				</ul>
-			<br />
+				<nav>
+					<ul>
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="Education.html">Education</a></li>
+						<li><a href="Awards & Scholarships.html">Awards & Scholarships</a></li>
+						<li><a href="Work Experience.html">Work Experience</a></li>
+						<li><a href="Proficiencies & Interests.html" class="on">Proficiencies & Interests</a></li>
+					</ul>
+					
+					<select onChange="window.location.href=this.value">
+						<option value="" selected="selected">Navigate Here:</option> 
+    
+						<option value="Home.html">Home</option> 
+						<option value="Education.html">Education</option> 
+						<option value="Awards & Scholarships.html">Awards & Scholarships</option> 
+						<option value="Work Experience.html">Work Experience</option> 
+						<option value="Proficiencies & Interests.html">Proficiencies & Interests</option>
+					</select>
+				</nav>
+				<br />
 			</div>
 		</div>
 		
 		<div class="Computer_Skills">
-			<p class="heading">Computer Skills</p>
+			<h2>Computer Skills</h2>
 			<ul>
 				<li>
-					<p class="subheading">Operating Systems:</p>
-					<ul>
-						<li>Windows</li>
-						<li>Macintosh OSX</li>
-						<li>Linux/Ubuntu (via VMware)</li>
-					</ul>
-				</li>
-				<li>
-					<p class="subheading">Languages:</p>
+					<h3><span style="color: grey">&bull;  </span>Languages:</h3>
 					<ul>
 						<li>C</li>
 						<li>C++</li>
@@ -49,7 +53,15 @@
 					</ul>
 				</li>
 				<li>
-					<p class="subheading">Programs & Applications:</p>
+					<h3><span style="color: grey">&bull;  </span>Operating Systems</h3>
+					<ul>
+						<li>Windows</li>
+						<li>Macintosh OSX</li>
+						<li>Linux/Ubuntu (via VMware)</li>
+					</ul>
+				</li>
+				<li>
+					<h3><span style="color: grey">&bull;  </span>Programs & Applications</h3>
 					<ul>
 						<li>Oracle VM VirtualBox</li>
 						<li>Windows VM Player</li>
@@ -64,7 +76,7 @@
 					</ul>
 				</li>
 				<li>
-					<p class="subheading">Other Computer Skills:</p>
+					<h3><span style="color: grey">&bull;  </span>Other Computer Skills</h3>
 					<ul>
 						<li>Internet</li>
 						<li>Email</li>
@@ -79,14 +91,16 @@
 		</div>
 		
 		<div class="Hobbies_&_Interests">
-			<p class="heading">Hobbies & Interests</p>
+			<h2>Hobbies & Interests</h2>
 			<ul>
 				<li>Cycling</li>
+				<li>Fishing</li>
 				<li>Hiking</li>
 				<li>Video Games</li>
 				<li>Art</li>
 				<li>Graphic Design</li>
 			</ul>
 		</div>
+		
 	</body>
 </html>
