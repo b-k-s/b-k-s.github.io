@@ -55,3 +55,9 @@ nav select {
 	nav ul     { display: none; }
 	nav select { display: inline-block; }
 }
+
+@media (max-width: 500px) {
+	h1 { font-size: 25px; }
+	h2 { font-size: 18px; }
+	h3, p, li { font-size: 14px; }
+}
