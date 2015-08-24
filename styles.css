@@ -57,7 +57,7 @@ nav select {
 }
 
 @media (max-width: 500px) {
-	h1 { font-size: 25px; }
+	h1 { font-size: 30px; }
 	h2 { font-size: 18px; }
 	h3, p, li { font-size: 14px; }
 }
