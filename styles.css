@@ -4,7 +4,7 @@
 h2, h3, p, ul, table{
 	text-align: left; }
 	
-h2, .Header>h2{
+h2{
 	font-size: 20px;
 	font-weight: 500; }
 	
