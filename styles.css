@@ -21,7 +21,7 @@ h3{
 	font-size: 16px; 
 }
 	
-.Computer_Skills>ul>li, /*.Other_Skills>ul>li*/{
+.Computer_Skills>ul>li/*, .Other_Skills>ul>li*/{
 	display: inline-block;
 	vertical-align: top;
 	width: 275px; 
