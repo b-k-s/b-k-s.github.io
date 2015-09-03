@@ -4,7 +4,7 @@
 h2, h3, p, ul, table{
 	text-align: left; }
 	
-h2{
+h2, .Header>h2{
 	font-size: 20px;
 	font-weight: 500; }
 	
@@ -36,7 +36,7 @@ h1, h2, h3, p, ul, table, .Header, .Header>p, .Website_Links{
 	margin: 10px auto 10px auto; }
 	
 h1, h2, h3, p, ul, table{
-	max-width: 720px; }
+	max-width: 725px; }
 	
 .Header, .Header>p, .Website_Links{
 	max-width: 900px; }
