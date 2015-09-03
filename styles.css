@@ -36,12 +36,12 @@ h1, h2, h3, p, ul, table, .Header, .Header>p, .Website_Links{
 	margin: 10px auto 10px auto; }
 	
 h1, h2, h3, p, ul, table{
-	max-width: 730px; }
+	max-width: 720px; }
 	
 .Header, .Header>p, .Website_Links{
 	max-width: 900px; }
 	
-body, .Header, .Header>p, .Website_Links>nav>ul{
+body, .Header, .Header>h2, .Header>p, .Website_Links>nav>ul{
 	text-align: center; }
 	
 .Website_Links>nav>ul>li{ 
