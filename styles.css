@@ -1,55 +1,76 @@
-*{ font-family: Calibri, Arial, Helvetica, sans-serif;
-   color: grey; }
+*{ 
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+   	color: grey; 
+}
    
 h2, h3, p, ul, table{
-	text-align: left; }
+	text-align: left; 
+}
+	
+.Header>h1{
+	margin-bottom: 0px;
+}
 	
 h2{
 	font-size: 20px;
-	font-weight: 500; }
+	font-weight: 500; 
+}
 	
 h3{
-	font-size: 16px; }
+	font-size: 16px; 
+}
 	
 .Computer_Skills>ul>li{
 	display: inline-block;
 	vertical-align: top;
-	width: 250px; }
+	width: 250px; 
+}
 	
 a, a:hover, .Website_Links>ul>li>a.on, .Website_Links>ul>li>a:hover{
-	color: black; }
+	color: black; 
+}
 	
 a, .Website_Links>nav>ul>li>a{
-	text-decoration: none; }
+	text-decoration: none; 
+}
 	
 h3, a:hover, .Name, .Header>h1, .Website_Links>nav>ul>li>a.on, .Website_Links>nav>ul>li>a:hover{
-	font-weight: bold; }
+	font-weight: bold; 
+}
 	
 a:active{
-	color: grey; }
+	color: grey; 
+}
 	
 h2, h3, .Header>h1{
-	color: #606060; }
+	color: #606060; 
+}
 	
 h1, h2, h3, p, ul, table, .Header, .Header>p, .Website_Links{
 	min-width: 150px; 
-	margin: 10px auto 10px auto; }
+	margin: 10px auto 10px auto;
+}
 	
 h1, h2, h3, p, ul, table{
-	max-width: 725px; }
+	max-width: 725px; 
+}
 	
 .Header, .Header>p, .Website_Links{
-	max-width: 900px; }
+	max-width: 900px; 
+}
 	
 body, .Header, .Header>h2, .Header>p, .Website_Links>nav>ul{
-	text-align: center; }
+	text-align: center; 
+}
 	
 .Website_Links>nav>ul>li{ 
 	display: inline; 
-	margin: auto 7px auto 7px; }
+	margin: auto 7px auto 7px; 
+}
 
 nav select {
-	display: none; }
+	display: none; 
+}
 
 @media (max-width: 765px) {
 	nav ul     { display: none; }
