@@ -24,7 +24,7 @@ h3{
 .Computer_Skills>ul>li{
 	display: inline-block;
 	vertical-align: top;
-	max-width: 285px; 
+	max-width: 300px; 
 }
 	
 a, a:hover, .Website_Links>ul>li>a.on, .Website_Links>ul>li>a:hover{
