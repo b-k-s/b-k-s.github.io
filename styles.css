@@ -9,7 +9,8 @@ h2, h3, p, ul, table{
 	
 .Header>h1, .Header>h2{
 	margin: 0px auto 0px auto;
-	padding: 0px 0px 0px 0px;
+	/*padding: 0px 0px 0px 0px;*/
+	padding: 0;
 }
 	
 h2{
