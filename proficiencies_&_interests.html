@@ -1,136 +1,138 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html lang="en">
 	<head>
 		<title>Brandon Sahm</title>
 		<link href="styles.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="Header">
-			<h1>Brandon Sahm</h1>
-			<h2>Bachelor of Computer Science (BCS)</h2>
-			<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
-			<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Brandon Sahm</h1>
+				<h2>Bachelor of Computer Science (BCS)</h2>
+				<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
+				<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
+			
+				<div id="website_links">
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/education.html">Education</a></li>
+							<li><a href="/awards_&_scholarships.html">Awards & Scholarships</a></li>
+							<li><a href="/work_experience.html">Work Experience</a></li>
+							<li><span class="deactivated_link">Proficiencies & Interests</span></li>
+						</ul>
+						
+						<select onChange="window.location.href=this.value">
+							<option value="" selected="selected">Navigate Here:</option> 
 		
-			<div class="Website_Links">
-				<nav>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/education">Education</a></li>
-						<li><a href="/awards_&_scholarships">Awards & Scholarships</a></li>
-						<li><a href="/work_experience">Work Experience</a></li>
-						<li><a href="/proficiencies_&_interests" class="on">Proficiencies & Interests</a></li>
-					</ul>
-					
-					<select onChange="window.location.href=this.value">
-						<option value="" selected="selected">Navigate Here:</option> 
-    
-						<option value="/">Home</option> 
-						<option value="/education">Education</option> 
-						<option value="/awards_&_scholarships">Awards & Scholarships</option> 
-						<option value="/work_experience">Work Experience</option> 
-						<option value="/proficiencies_&_interests">Proficiencies & Interests</option>
-					</select>
-				</nav>
-				<br />
+							<option value="/">Home</option> 
+							<option value="/education.html">Education</option> 
+							<option value="/awards_&_scholarships.html">Awards & Scholarships</option> 
+							<option value="/work_experience.html">Work Experience</option> 
+							<option value="">Proficiencies & Interests</option>
+						</select>
+					</nav>
+					<br />
+				</div>
+			</div>
+			
+			<div id="computer_skills">
+				<h2><span class="subtitle">Computer Proficiencies</span></h2>
+				<ul>
+					<li>
+						<h3><span style="color: grey">&bull;  </span>Languages:</h3>
+						<ul>
+							<li>C</li>
+							<li>C++</li>
+							<li>Python</li>
+							<li>Java</li>
+							<li>Scheme</li>
+							<li>SQL</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>PHP</li>
+							<li>Linux Command Line</li>
+						</ul>
+					</li>
+					<li>
+						<h3><span style="color: grey">&bull;  </span>Operating Systems & Virtual Machines</h3>
+						<ul>
+							<li>Windows</li>
+							<li>Macintosh OSX</li>
+							<li>Linux/Ubuntu (via VMware)</li>
+							<li>Oracle VM VirtualBox</li>
+							<li>Windows VM Player</li>
+						</ul>
+					</li>
+					<li>
+						<h3><span style="color: grey">&bull;  </span>Programs & Applications</h3>
+						<ul>
+							<li>Microsoft Word</li>
+							<li>Microsoft PowerPoint</li>
+							<li>Microsoft Excel</li>
+							<li>phpMyAdmin</li>
+							<li>PostgreSQL</li>
+							<li>XAMPP</li>
+							<li>Pages</li>
+							<li>Adobe Photoshop</li>
+							<li>Adobe Flash</li>
+							<li>Paint.NET</li>
+							<li>Github</li>
+							<li>Dropbox</li>
+							<li>Bluehost</li>
+							<li>Skype</li>
+							<li>Maple 15</li>
+							<li>ExtraPutty</li>
+							<li>WinSCP</li>
+							<li>Simply Accounting</li>
+						</ul>
+					</li>
+					<li>
+						<h3><span style="color: grey">&bull;  </span>Other Computer Skills</h3>
+						<ul>
+							<li>Software/Hardware Installation</li>
+							<li>Word Processing</li>
+							<li>Spread Sheets</li>
+							<li>Slide Shows</li>
+							<li>Image Editing</li>
+							<li>Email</li>
+							<li>Web Browsing</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="other_skills">
+				<h2><span class="subtitle">Other Skills & Interests</span></h2>
+				<ul>
+					<li>
+						<h3><span style="color: grey">&bull;  </span>Personal Qualities:</h3>
+						<ul>
+							<li>Oraganized</li>
+							<li>Punctual</li>
+							<li>Responsible</li>
+							<li>Independent</li>
+							<li>Dedicated</li>
+							<li>Always willing to learn</li>
+							<li>Likes to try new things</li>
+							<li>Enjoys working with others</li>
+							<li>Willing to work flexible schedule</li>
+						</ul>
+					</li>
+					<li>
+						<h3><span style="color: grey">&bull;  </span>Hobbies:</h3>
+						<ul>
+							<li>Cycling</li>
+							<li>Fishing</li>
+							<li>Hiking</li>
+							<li>Video Games</li>
+							<li>Art</li>
+							<li>Graphic Design</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</div>
-		
-		<div class="Computer_Skills">
-			<h2>Computer Proficiencies</h2>
-			<ul>
-				<li>
-					<h3><span style="color: grey">&bull;  </span>Languages:</h3>
-					<ul>
-						<li>C</li>
-						<li>C++</li>
-						<li>Python</li>
-						<li>Java</li>
-						<li>Scheme</li>
-						<li>SQL</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>PHP</li>
-						<li>Linux Command Line</li>
-					</ul>
-				</li>
-				<li>
-					<h3><span style="color: grey">&bull;  </span>Operating Systems & Virtual Machines</h3>
-					<ul>
-						<li>Windows</li>
-						<li>Macintosh OSX</li>
-						<li>Linux/Ubuntu (via VMware)</li>
-						<li>Oracle VM VirtualBox</li>
-						<li>Windows VM Player</li>
-					</ul>
-				</li>
-				<li>
-					<h3><span style="color: grey">&bull;  </span>Programs & Applications</h3>
-					<ul>
-						<li>Microsoft Word</li>
-						<li>Microsoft PowerPoint</li>
-						<li>Microsoft Excel</li>
-						<li>phpMyAdmin</li>
-						<li>PostgreSQL</li>
-						<li>XAMPP</li>
-						<li>Pages</li>
-						<li>Adobe Photoshop</li>
-						<li>Adobe Flash</li>
-						<li>Paint.NET</li>
-						<li>Github</li>
-						<li>Dropbox</li>
-						<li>Bluehost</li>
-						<li>Skype</li>
-						<li>Maple 15</li>
-						<li>ExtraPutty</li>
-						<li>WinSCP</li>
-						<li>Simply Accounting</li>
-					</ul>
-				</li>
-				<li>
-					<h3><span style="color: grey">&bull;  </span>Other Computer Skills</h3>
-					<ul>
-						<li>Software/Hardware Installation</li>
-						<li>Word Processing</li>
-						<li>Spread Sheets</li>
-						<li>Slide Shows</li>
-						<li>Image Editing</li>
-						<li>Email</li>
-						<li>Web Browsing</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		
-		<div class="Other_Skills">
-			<h2>Other Skills & Interests</h2>
-			<ul>
-				<li>
-					<h3><span style="color: grey">&bull;  </span>Personal Qualities:</h3>
-					<ul>
-						<li>Oraganized</li>
-						<li>Punctual</li>
-						<li>Responsible</li>
-						<li>Independent</li>
-						<li>Dedicated</li>
-						<li>Always willing to learn</li>
-						<li>Likes to try new things</li>
-						<li>Enjoys working with others</li>
-						<li>Willing to work flexible schedule</li>
-					</ul>
-				</li>
-				<li>
-					<h3><span style="color: grey">&bull;  </span>Hobbies:</h3>
-					<ul>
-						<li>Cycling</li>
-						<li>Fishing</li>
-						<li>Hiking</li>
-						<li>Video Games</li>
-						<li>Art</li>
-						<li>Graphic Design</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		<br />
 	</body>
 </html>

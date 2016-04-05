@@ -1,83 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html lang="en">
 	<head>
 		<title>Brandon Sahm</title>
 		<link href="styles.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="Header">
-			<h1>Brandon Sahm</h1>
-			<h2>Bachelor of Computer Science (BCS)</h2>
-			<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
-			<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
-		
-			<div class="Website_Links">
-				<nav>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/education" class="on">Education</a></li>
-						<li><a href="/awards_&_scholarships">Awards & Scholarships</a></li>
-						<li><a href="/work_experience">Work Experience</a></li>
-						<li><a href="/proficiencies_&_interests">Proficiencies & Interests</a></li>
-					</ul>
-					
-					<select onChange="window.location.href=this.value">
-						<option value="" selected="selected">Navigate Here:</option> 
-    
-						<option value="/">Home</option> 
-						<option value="/education">Education</option> 
-						<option value="/awards_&_scholarships">Awards & Scholarships</option> 
-						<option value="/work_experience">Work Experience</option> 
-						<option value="/proficiencies_&_interests">Proficiencies & Interests</option>
-					</select>
-				</nav>
-				<br />
-			</div>
-		</div>
-		
-		<h2><a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a></h2>
-		<ul>
-			<li>
-				<h3>Certificate in Essentials of Web Design<br />August 2015 - Present</h3>
-				<p>Currently, I am pursuing this certificate to expand my knowledge in HTML, CSS, JavaScript, and jQuery and improve my skills in effective web design.</p>
-			</li>
-		
-			<li>
-				<h3>Bachelor of Computer Science<br />September 2011 - April 2015</h3>
-				<p>Senior year studies focussed on:
-				<ul>
-					<li>Databases</li>
-					<li>Information Systems</li>
-					<li>Networks</li>
-					<li>Distributed Systems</li>
-				</ul></p>
-				<p>Other topics covered include:
-				<ul>
-					<li>Object-Oriented Programming</li>
-					<li>Software Development Principles</li>
-					<li>Algorithms</li>
-					<li>Data Types and Structures</li>
-					<li>Compilers</li>
-					<li>Machine Code and MIPS</li>
-					<li>Operating Systems</li>
-					<li>Computational Theory and Logic</li>
-					<li>Mathematics: Calculus, Algebra, Probability, Statistics, and Combinatorics</li>
-				</ul></p>
-			</li>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Brandon Sahm</h1>
+				<h2>Bachelor of Computer Science (BCS)</h2>
+				<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
+				<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
 			
-			<li>
-				<h3>Economics Minor</h3>
-				<ul>
-					<li>Micro and Macroeconomic Theory and History</li>
-					<li>Econometrics</li>
-					<li>International Economics</li>
-					<li>Monetary Economics</li>
-				</ul></p>
-			</li>
-		</ul>
+				<div id="website_links">
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><span class="deactivated_link">Education</span></li>
+							<li><a href="/awards_&_scholarships.html">Awards & Scholarships</a></li>
+							<li><a href="/work_experience.html">Work Experience</a></li>
+							<li><a href="/proficiencies_&_interests.html">Proficiencies & Interests</a></li>
+						</ul>
+						
+						<select onChange="window.location.href=this.value">
+							<option value="" selected="selected">Navigate Here:</option> 
 		
-		<p>You can find a list of all the relevant courses I have completed on my <a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn profile.</a><br />
-		Detailed course descriptions for the computer science courses can be found on the University of Waterloo's <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/" target="_blank">Cheriton School of Computer Science page.</a></p>
-		<br />
+							<option value="/">Home</option> 
+							<option value="">Education</option> 
+							<option value="/awards_&_scholarships.html">Awards & Scholarships</option> 
+							<option value="/work_experience.html">Work Experience</option> 
+							<option value="/proficiencies_&_interests.html">Proficiencies & Interests</option>
+						</select>
+					</nav>
+					<br />
+				</div>
+			</div>
+			
+			<h2><span class="subtitle">University of Waterloo</span></h2>
+			<ul>
+				<li>
+					<h3>Certificate in Essentials of Web Design<br />August 2015 - Present</h3>
+					<p>Currently, I am pursuing this certificate to expand my knowledge in HTML, CSS, JavaScript, and jQuery and improve my skills in web development.</p>
+				</li>
+			
+				<li>
+					<h3>Bachelor of Computer Science, Minor in Economics<br />September 2011 - April 2015</h3>
+					<p>Senior year studies focussed on:
+					<ul>
+						<li>Databases</li>
+						<li>Information Systems</li>
+						<li>Networks</li>
+						<li>Distributed Systems</li>
+					</ul></p>
+					<p>Other topics covered include:
+					<ul>
+						<li>Object-Oriented Programming</li>
+						<li>Software Development Principles</li>
+						<li>Algorithms</li>
+						<li>Data Types and Structures</li>
+						<li>Compilers</li>
+						<li>Machine Code and MIPS</li>
+						<li>Operating Systems</li>
+						<li>Computational Theory and Logic</li>
+						<li>Mathematics: Calculus, Algebra, Probability, Statistics, and Combinatorics</li>
+					</ul></p>
+				
+					<p>Economic courses include:
+					<ul>
+						<li>Micro and Macroeconomic Theory and History</li>
+						<li>Econometrics</li>
+						<li>International Economics</li>
+						<li>Monetary Economics</li>
+					</ul></p>
+				</li>
+			</ul>
+			
+			<p>You can find a list of all the relevant courses I have completed on my <a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn profile.</a></p>
+		</div>
 	</body>
 </html>

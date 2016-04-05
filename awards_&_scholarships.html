@@ -1,51 +1,52 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html lang="en">
 	<head>
 		<title>Brandon Sahm</title>
 		<link href="styles.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="Header">
-			<h1>Brandon Sahm</h1>
-			<h2>Bachelor of Computer Science (BCS)</h2>
-			<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
-			<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Brandon Sahm</h1>
+				<h2>Bachelor of Computer Science (BCS)</h2>
+				<p><a href="mailto:b.k.sahm@gmail.com">b.k.sahm@gmail.com</a><br />
+				<a href="https://ca.linkedin.com/pub/brandon-sahm/102/932/ab7" target="_blank">LinkedIn</a></p>
+			
+				<div id="website_links">
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/education.html">Education</a></li>
+							<li><span class="deactivated_link">Awards & Scholarships</span></li>
+							<li><a href="/work_experience.html">Work Experience</a></li>
+							<li><a href="/proficiencies_&_interests.html">Proficiencies & Interests</a></li>
+						</ul>
+						
+						<select onChange="window.location.href=this.value">
+							<option value="" selected="selected">Navigate Here:</option> 
 		
-			<div class="Website_Links">
-				<nav>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/education">Education</a></li>
-						<li><a href="/awards_&_scholarships" class="on">Awards & Scholarships</a></li>
-						<li><a href="/work_experience">Work Experience</a></li>
-						<li><a href="/proficiencies_&_interests">Proficiencies & Interests</a></li>
-					</ul>
-					
-					<select onChange="window.location.href=this.value">
-						<option value="" selected="selected">Navigate Here:</option> 
-    
-						<option value="/">Home</option> 
-						<option value="/education">Education</option> 
-						<option value="/awards_&_scholarships">Awards & Scholarships</option> 
-						<option value="/work_experience">Work Experience</option> 
-						<option value="/proficiencies_&_interests">Proficiencies & Interests</option>
-					</select>
-				</nav>
-				<br />
+							<option value="/">Home</option> 
+							<option value="/education.html">Education</option> 
+							<option value="">Awards & Scholarships</option> 
+							<option value="/work_experience.html">Work Experience</option> 
+							<option value="/proficiencies_&_interests.html">Proficiencies & Interests</option>
+						</select>
+					</nav>
+					<br />
+				</div>
 			</div>
+			
+			<h2><span class="subtitle">University of Waterloo</span></h2>
+			<ul>
+				<li><a href="https://ugradcalendar.uwaterloo.ca/page/MATH-Recognition-of-Excellence" target="_blank">Graduated with Distinction</a> &#45; June 2015</li>
+				<li><a href="https://uwaterloo.ca/math/current-undergraduates/funding-and-awards/deans-honours-list/fall-2013" target="_blank">Fall 2013 Faculty of Mathematics Term Dean&#8217s Honours List</a> &#45; January 2014</li>
+				<li><a href="https://uwaterloo.ca/find-out-more/financing/scholarships/presidents-scholarships" target="_blank">President's Scholarship</a> &#45; October 2011</li>
+			</ul>
+			
+			<h2><span class="subtitle">Other Awards:</span></h2>
+			<ul>
+				<li><a href="http://www.edu.gov.on.ca/extra/eng/ppm/53.html" target="_blank">Ontario Scholar Award</a> &#45; November 2010</li>
+			</ul>
 		</div>
-		
-		<h2><a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a></h2>
-		<ul>
-			<li><a href="https://ugradcalendar.uwaterloo.ca/page/MATH-Recognition-of-Excellence" target="_blank">Graduated with Distinction</a> &#45; June 2015</li>
-			<li><a href="https://uwaterloo.ca/math/current-undergraduates/funding-and-awards/deans-honours-list/fall-2013" target="_blank">Fall 2013 Faculty of Mathematics Term Dean&#8217s Honours List</a> &#45; January 2014</li>
-			<li><a href="https://uwaterloo.ca/find-out-more/financing/scholarships/presidents-scholarships" target="_blank">President's Scholarship</a> &#45; October 2011</li>
-		</ul>
-		
-		<h2>Other Awards:</h2>
-		<ul>
-			<li><a href="http://www.edu.gov.on.ca/extra/eng/ppm/53.html" target="_blank">Ontario Scholar Award</a> &#45; November 2010</li>
-		</ul>
-		<br />
 	</body>
 </html>
