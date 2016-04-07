@@ -7,7 +7,10 @@ body{
    	color: grey;
 	text-align: left;
 }
-
+hr{
+	border: 0;
+	border-top: solid 3px grey;
+}
 
 #header{
 	text-align: center;
@@ -31,12 +34,6 @@ body{
 }
 .subtitle{
 	color: #404040;
-}
-.work_history{
-	border-bottom: solid;
-}
-.work_history_last{
-	border: none;
 }
 .deactivated_link{
 	font-weight: bold;
