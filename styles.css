@@ -12,12 +12,13 @@ hr{
 	border-top: solid 3px grey;
 }
 
+
 #header{
 	text-align: center;
 }
 #website_links>nav>ul>li{ 
 	display: inline; 
-	margin: auto 7px auto 7px;
+	padding: 0px 10px 0px 0px;
 }
 #website_links>nav>ul{
 	margin: 0;
@@ -42,11 +43,17 @@ hr{
 #computer_skills>ul>li, #other_skills>ul>li{
 	display: inline-block;
 	vertical-align: top;
-	width: 320px;
+	width: 250px;
+}
+#os_and_vm, #programs_and_applications, #personal_qualities{
+	padding-right: 25px;
+}
+.vm_padding{
+	padding-left: 13px;
 }
 
 
-ul{
+ul li{
 	list-style-position: outside;
 }
 
@@ -68,7 +75,8 @@ nav select {
 	display: none; 
 }
 
-@media (max-width: 650px) {
+
+@media (max-width: 640px) {
 	nav ul     { display: none; }
 	nav select { display: inline-block; }
 }
