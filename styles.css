@@ -60,6 +60,8 @@ h3{
 	padding-top: 10px;
 	margin-top: 10px;
 }
+
+
 .vm_padding{
 	padding-left: 13px;
 }
@@ -91,6 +93,10 @@ nav select {
 @media (max-width: 640px) {
 	nav ul     { display: none; }
 	nav select { display: inline-block; }
+}
+
+@media (max-width: 601px) {
+	#programming_languages, #hobbies { padding-top: 10px; margin-top: 10px; }
 }
 
 @media (max-width: 500px) {
